@@ -1,19 +1,9 @@
 package alquileres;
 
 import entidades.Cliente;
-
-import entidades.Reserva;
 import entidades.Vehiculo;
-
 import enums.Combustibles;
-
-import java.time.LocalDateTime;
 import java.time.format.DateTimeParseException;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-
 import excepciones.ClienteAlquilandoException;
 import excepciones.DNIIncorrectoException;
 import excepciones.MatriculaIncorrectaException;
